@@ -32,7 +32,7 @@ const OrderedItem = () => {
 
     useEffect(() => {
         axios
-            .get('http://localhost:5000/myOrder')
+            .get('https://online-food-web-server.vercel.app/myOrder')
             .then((response) => {
                 setItems(response.data);
             })
@@ -46,12 +46,13 @@ const OrderedItem = () => {
     <div>
            
             <Typography variant="h4" align="center" gutterBottom>
-                All Products
+               My Order
             </Typography>
             <TableContainer component={Paper}>
                 <StyledTable>
                     <TableHead>
                         <TableRow>
+                        <TableCell>Order ID</TableCell>
                             <TableCell>Item Name</TableCell>
                             <TableCell>Image</TableCell>
                             <TableCell>Quantity</TableCell>
@@ -65,6 +66,7 @@ const OrderedItem = () => {
                     <TableBody>
                         {item.map((i) => (
                             <TableRow key={i._id}>
+                                <TableCell>{i._id}</TableCell>
                                 <TableCell>{i.item}</TableCell>
                                 <TableCell>
                                     {i.image && (

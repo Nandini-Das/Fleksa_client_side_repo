@@ -10,7 +10,7 @@ function Nav() {
     <AppBar position="static">
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Typography variant="h6" component="div">
-          Take Away
+          TakeAway
         </Typography>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <Button  component= {Link} to="/" color="inherit">Home</Button>
@@ -20,10 +20,13 @@ function Nav() {
           <Button component= {Link} to="/menu" color="inherit">Menu</Button>
           <Button component= {Link} to="/contact" color="inherit">Contact</Button>
         </Box>
-        <Button color="inherit">
+        <Button color="inherit"
+         component= {Link} 
+         to="/myOrder"
+        >
 
-
-          <Link to="/myOrder"> <ShoppingCartIcon sx={{ marginLeft: 1 }} /></Link> 
+       
+          My Order<ShoppingCartIcon sx={{ marginLeft: 1 }} />
             
           </Button>
       </Toolbar>

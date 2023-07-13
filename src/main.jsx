@@ -47,7 +47,7 @@ const router = createBrowserRouter([
       {
         path: "/orderPage/:id",
         element:<OrderPage></OrderPage>,
-        loader: (params)=> (`http://localhost:5000/menu/${params.id}`),
+        loader: (params)=> (`https://online-food-web-server.vercel.app/menu/${params.id}`),
       },
       {
         path: "/myOrder",

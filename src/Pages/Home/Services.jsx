@@ -6,17 +6,17 @@ const ServicesPage = () => {
     {
       title: 'Online Ordering',
       description: 'Conveniently order your favorite dishes online and enjoy a seamless food delivery experience.',
-      imageUrl: 'https://source.unsplash.com/0RXKZPww86U',
+      imageUrl: 'https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b25saW5lJTIwb3JkZXJpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
     },
     {
       title: 'Catering Services',
-      description: 'Let us handle your events with our professional catering services, providing delicious meals for your guests.',
-      imageUrl: 'https://source.unsplash.com/-ScHmVgWUOo',
+      description: 'Let us handle your events with our professional catering services, providing meals for your guests.',
+      imageUrl: 'https://images.unsplash.com/photo-1562249004-8aa16dc0202b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2F0ZXJpbmclMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     },
     {
       title: 'Private Dining',
       description: 'Experience a personalized dining experience with our private dining options for special occasions.',
-      imageUrl: 'https://source.unsplash.com/YqDZDm4A3Lc',
+      imageUrl: 'https://images.unsplash.com/photo-1668583029711-cccc9d1f109c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdHVyYW50JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
     },
   ];
 

@@ -11,9 +11,9 @@ function Menu() {
   useEffect(() => {
     async function fetchMenuData() {
       try {
-        const response = await axios.get('http://localhost:5000/menu');
+        const response = await axios.get('https://online-food-web-server.vercel.app/menu');
         setMenuItems(response.data);
-        setVisibleItems(response.data.slice(0, 10));
+        setVisibleItems(response.data.slice(0, 6));
       } catch (error) {
         console.error(error);
       }
@@ -29,7 +29,7 @@ function Menu() {
 
   return (
     <div>
-       <Typography variant="h2" component="h1" align="center" gutterBottom>
+       <Typography variant="h4" component="h3" align="center" gutterBottom>
         Our Menu
       </Typography>
       <Grid container spacing={2}>

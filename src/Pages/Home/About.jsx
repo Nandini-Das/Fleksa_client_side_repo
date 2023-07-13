@@ -3,10 +3,10 @@ import { Typography, Container, Grid, CardMedia } from '@mui/material';
 
 const AboutPage = () => {
   const imageUrls = [
-    'https://source.unsplash.com/AO_7YVfX7CM',
-    'https://source.unsplash.com/jxFOIwO5tOw',
-    'https://source.unsplash.com/D3CqD6e56yA',
-    'https://source.unsplash.com/DCjTqFDysJ4',
+    'https://images.unsplash.com/photo-1484659619207-9165d119dafe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    'https://images.unsplash.com/photo-1513618364580-fe1596762e8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdHVyYW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+    'https://images.unsplash.com/photo-1563567930343-7f24fd8766dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3R1cmFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    'https://images.unsplash.com/photo-1541701785007-42cf9104b53d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJlc3R1cmFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
   ];
 
   return (
